@@ -1,61 +1,25 @@
-================================================================================
-                                样例使用说明
-                             Sample Description
-================================================================================
-功能描述：
-本例程输出4路PWM，通道1的占空比为20%，通道2为40%，通道3为60%，通道4为80%
-本例程周期为24000000/2000/1200=10Hz。
+# PY32F002B TIM Fan Control Example
 
-Function descriptions:
-This routine outputs 4 PWM channels, with a duty cycle of 20% for channel 1, 
-40% for channel 2, 60% for channel 3, and 80% for channel 4
-The cycle of this routine is 24000000/2000/1200=10Hz.
-================================================================================
-测试环境：
-测试用板：PY32F002B_STK
-MDK版本： 5.28
-IAR版本： 9.20
-GCC 版本：GNU Arm Embedded Toolchain 10.3-2021.10
+## 项目概述 (Project Overview)
+本例程演示了如何使用 PY32F002B 微控制器生成 PWM 信号，并通过读取连接到 ADC 的电位器电压实时调整其中一路 PWM (TIM1_CH4) 的占空比，用于风扇转速控制或其他需要动态 PWM 输出的应用。
 
-Test environment:
-Test board: PY32F002B_STK
-MDK Version: 5.28
-IAR Version: 9.20
-GCC Version: GNU Arm Embedded Toolchain 10.3-2021.10
-================================================================================
-使用步骤：
-1. 编译并下载程序；
-2. 用逻分或者示波器连接四个通道PA5(TIM1_CH1),PB0(TIM1_CH2),PA4(TIM1_CH3)和
-PA7(TIM1_CH4)
-3. 查看发现周期为10Hz，占空比分别为20%，40%，60%，80%
+This example demonstrates how to use the PY32F002B microcontroller to generate PWM signals, and dynamically adjust the duty cycle of one PWM channel (TIM1_CH4) in real-time by reading the voltage from a connected potentiometer via ADC, for fan speed control or other applications requiring dynamic PWM output.
 
-Example execution steps:
-1. Compile and download the program;
-2. Use logic or oscilloscope to connect the four channels PA5 (TIM1_CH1)，
-PB0 (TIM1_CH2), PA4 (TIM1_CH3), and PA7 (TIM1_CH4)
-3. Upon inspection, it was found that the cycle is 10Hz and the duty cycle is 
-20%, 40%, 60%, and 80% respectively
+## 功能描述 (Function Description)
+本例程配置 TIM1 输出 PWM 信号。其中，TIM1_CH4 (PA7) 的占空比会根据连接到 ADC_CHANNEL_1 (PA1) 的电位器电压进行动态调整。
+PWM 周期为 25KHz (计算方式：24000000 / 96 / 10 = 25KHz)。
 
-================================================================================
-注意事项：
-1.
-PA5------>CH1 20%
-PB0------>CH2 40%
-PA4------>CH3 60%
-PA7------>CH4 80%
-2.如果需要使用按键:
-StartKit版本为V1.0,需将StartKit.h中的StartKitVersion 2 注释掉，并打开
-StartKitVersion 1
-StartKit版本为V1.0以上版本,则无需操作
+This routine configures TIM1 to output PWM signals. Specifically, the duty cycle of TIM1_CH4 (PA7) is dynamically adjusted based on the voltage from a potentiometer connected to ADC_CHANNEL_1 (PA1).
+The PWM cycle is 10Hz (calculated as: 计算方式：24000000 / 96 / 10 = 25KHz).
 
-Notes:
-1.
-PA5------>CH1 20%
-PB0------>CH2 40%
-PA4------>CH3 60%
-PA7------>CH4 80%
-2.If you need to use buttons:
-StartKit version is V1.0, please comment out StartKitVersion 2 in StartKit.h and 
-open StartKitVersion 1
-If the StartKit version is above V1.0, no operation is required
-================================================================================
+## 注意事项 (Notes)
+1.  **引脚分配 (Pin Assignment)**:
+    - PA7 ------> TIM1_CH4 (PWM output, duty cycle controlled by ADC)
+    - PA1 ------> ADC_CHANNEL_1 (ADC 输入，通常连接电位器用于 PWM 占空比控制)
+
+## Keil MDK 项目结构 (Keil MDK Project Structure)
+项目文件位于 `MDK-ARM/` 目录下。
+打开 `MDK-ARM/Project.uvprojx` 即可在 Keil MDK 中加载项目。
+
+Project files are located in the `MDK-ARM/` directory.
+Open `MDK-ARM/Project.uvprojx` to load the project in Keil MDK.
