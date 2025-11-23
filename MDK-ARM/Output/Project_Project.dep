@@ -1,0 +1,311 @@
+Dependencies for Project 'Project', Target 'Project': (DO NOT MODIFY !)
+CompilerVersion: 6240000::V6.24::ARMCLANG
+F (.\startup_py32f002bxx.s)(0x687F5CF4)(--cpu Cortex-M0+ -g --pd "__MICROLIB SETA 1" --diag_suppress=A1950W-I.\RTE\_Project-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\Puya\PY32F0xx_DFP\1.2.9\Drivers\CMSIS\Device\PY32F0xx\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\Puya\PY32F0xx_DFP\1.2.9\Device\Include--pd "__UVISION_VERSION SETA 543"--pd "_RTE_ SETA 1"--list .\output\startup_py32f002bxx.lst--xref -o .\output\startup_py32f002bxx.o--depend .\output\startup_py32f002bxx.d)
+F (..\Src\system_py32f002b.c)(0x687F5CF4)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Inc -I ../../../../../../Drivers/BSP/PY32F002Bxx_Start_Kit -I ../../../../../../Drivers/CMSIS/Include -I ../../../../../../Drivers/CMSIS/Device/PY32F0xx/Include -I ../../../../../../Drivers/PY32F002B_HAL_Driver/Inc-I./RTE/_Project-IC:/Users/Administrator/AppData/Local/Arm/Packs/ARM/CMSIS/6.2.0/CMSIS/Core/Include-IC:/Users/Administrator/AppData/Local/Arm/Packs/Puya/PY32F0xx_DFP/1.2.9/Drivers/CMSIS/Device/PY32F0xx/Include-IC:/Users/Administrator/AppData/Local/Arm/Packs/Puya/PY32F0xx_DFP/1.2.9/Device/Include-D__UVISION_VERSION="543" -D_RTE_ -DUSE_HAL_DRIVER -DPY32F002Bx5-o ./output/system_py32f002b.o -MMD)
+I (..\..\..\..\..\..\Drivers\CMSIS\Device\PY32F0xx\Include\py32f0xx.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\CMSIS\Device\PY32F0xx\Include\py32f002bx5.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\CMSIS\Include\core_cm0plus.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\CMSIS\Device\PY32F0xx\Include\system_py32f0xx.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f0xx_hal.h)(0x687F5D08)
+I (..\Inc\py32f002b_hal_conf.h)(0x6922FA06)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_rcc.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_def.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_rcc_ex.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_exti.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_gpio.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_gpio_ex.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_cortex.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_adc.h)(0x687F5D07)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_flash.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_pwr.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_tim.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_tim_ex.h)(0x687F5D07)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_uart.h)(0x687F5D08)
+F (..\Src\main.c)(0x6922FDB3)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Inc -I ../../../../../../Drivers/BSP/PY32F002Bxx_Start_Kit -I ../../../../../../Drivers/CMSIS/Include -I ../../../../../../Drivers/CMSIS/Device/PY32F0xx/Include -I ../../../../../../Drivers/PY32F002B_HAL_Driver/Inc-I./RTE/_Project-IC:/Users/Administrator/AppData/Local/Arm/Packs/ARM/CMSIS/6.2.0/CMSIS/Core/Include-IC:/Users/Administrator/AppData/Local/Arm/Packs/Puya/PY32F0xx_DFP/1.2.9/Drivers/CMSIS/Device/PY32F0xx/Include-IC:/Users/Administrator/AppData/Local/Arm/Packs/Puya/PY32F0xx_DFP/1.2.9/Device/Include-D__UVISION_VERSION="543" -D_RTE_ -DUSE_HAL_DRIVER -DPY32F002Bx5-o ./output/main.o -MMD)
+I (..\Inc\main.h)(0x687F5CF4)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f0xx_hal.h)(0x687F5D08)
+I (..\Inc\py32f002b_hal_conf.h)(0x6922FA06)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_rcc.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_def.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\CMSIS\Device\PY32F0xx\Include\py32f0xx.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\CMSIS\Device\PY32F0xx\Include\py32f002bx5.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\CMSIS\Include\core_cm0plus.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\CMSIS\Device\PY32F0xx\Include\system_py32f0xx.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_rcc_ex.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_exti.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_gpio.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_gpio_ex.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_cortex.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_adc.h)(0x687F5D07)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_flash.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_pwr.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_tim.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_tim_ex.h)(0x687F5D07)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_uart.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\BSP\PY32F002Bxx_Start_Kit\py32f002bxx_Start_Kit.h)(0x687F5D07)
+F (..\Src\py32f002b_hal_msp.c)(0x6922FDB3)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Inc -I ../../../../../../Drivers/BSP/PY32F002Bxx_Start_Kit -I ../../../../../../Drivers/CMSIS/Include -I ../../../../../../Drivers/CMSIS/Device/PY32F0xx/Include -I ../../../../../../Drivers/PY32F002B_HAL_Driver/Inc-I./RTE/_Project-IC:/Users/Administrator/AppData/Local/Arm/Packs/ARM/CMSIS/6.2.0/CMSIS/Core/Include-IC:/Users/Administrator/AppData/Local/Arm/Packs/Puya/PY32F0xx_DFP/1.2.9/Drivers/CMSIS/Device/PY32F0xx/Include-IC:/Users/Administrator/AppData/Local/Arm/Packs/Puya/PY32F0xx_DFP/1.2.9/Device/Include-D__UVISION_VERSION="543" -D_RTE_ -DUSE_HAL_DRIVER -DPY32F002Bx5-o ./output/py32f002b_hal_msp.o -MMD)
+I (..\Inc\main.h)(0x687F5CF4)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f0xx_hal.h)(0x687F5D08)
+I (..\Inc\py32f002b_hal_conf.h)(0x6922FA06)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_rcc.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_def.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\CMSIS\Device\PY32F0xx\Include\py32f0xx.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\CMSIS\Device\PY32F0xx\Include\py32f002bx5.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\CMSIS\Include\core_cm0plus.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\CMSIS\Device\PY32F0xx\Include\system_py32f0xx.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_rcc_ex.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_exti.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_gpio.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_gpio_ex.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_cortex.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_adc.h)(0x687F5D07)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_flash.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_pwr.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_tim.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_tim_ex.h)(0x687F5D07)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_uart.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\BSP\PY32F002Bxx_Start_Kit\py32f002bxx_Start_Kit.h)(0x687F5D07)
+F (..\Src\py32f002b_it.c)(0x687F5CF4)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Inc -I ../../../../../../Drivers/BSP/PY32F002Bxx_Start_Kit -I ../../../../../../Drivers/CMSIS/Include -I ../../../../../../Drivers/CMSIS/Device/PY32F0xx/Include -I ../../../../../../Drivers/PY32F002B_HAL_Driver/Inc-I./RTE/_Project-IC:/Users/Administrator/AppData/Local/Arm/Packs/ARM/CMSIS/6.2.0/CMSIS/Core/Include-IC:/Users/Administrator/AppData/Local/Arm/Packs/Puya/PY32F0xx_DFP/1.2.9/Drivers/CMSIS/Device/PY32F0xx/Include-IC:/Users/Administrator/AppData/Local/Arm/Packs/Puya/PY32F0xx_DFP/1.2.9/Device/Include-D__UVISION_VERSION="543" -D_RTE_ -DUSE_HAL_DRIVER -DPY32F002Bx5-o ./output/py32f002b_it.o -MMD)
+I (..\Inc\main.h)(0x687F5CF4)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f0xx_hal.h)(0x687F5D08)
+I (..\Inc\py32f002b_hal_conf.h)(0x6922FA06)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_rcc.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_def.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\CMSIS\Device\PY32F0xx\Include\py32f0xx.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\CMSIS\Device\PY32F0xx\Include\py32f002bx5.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\CMSIS\Include\core_cm0plus.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\CMSIS\Device\PY32F0xx\Include\system_py32f0xx.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_rcc_ex.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_exti.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_gpio.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_gpio_ex.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_cortex.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_adc.h)(0x687F5D07)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_flash.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_pwr.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_tim.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_tim_ex.h)(0x687F5D07)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_uart.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\BSP\PY32F002Bxx_Start_Kit\py32f002bxx_Start_Kit.h)(0x687F5D07)
+I (..\Inc\py32f002b_it.h)(0x687F5CF4)
+F (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Src\py32f002b_hal.c)(0x687F5D07)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Inc -I ../../../../../../Drivers/BSP/PY32F002Bxx_Start_Kit -I ../../../../../../Drivers/CMSIS/Include -I ../../../../../../Drivers/CMSIS/Device/PY32F0xx/Include -I ../../../../../../Drivers/PY32F002B_HAL_Driver/Inc-I./RTE/_Project-IC:/Users/Administrator/AppData/Local/Arm/Packs/ARM/CMSIS/6.2.0/CMSIS/Core/Include-IC:/Users/Administrator/AppData/Local/Arm/Packs/Puya/PY32F0xx_DFP/1.2.9/Drivers/CMSIS/Device/PY32F0xx/Include-IC:/Users/Administrator/AppData/Local/Arm/Packs/Puya/PY32F0xx_DFP/1.2.9/Device/Include-D__UVISION_VERSION="543" -D_RTE_ -DUSE_HAL_DRIVER -DPY32F002Bx5-o ./output/py32f002b_hal.o -MMD)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f0xx_hal.h)(0x687F5D08)
+I (..\Inc\py32f002b_hal_conf.h)(0x6922FA06)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_rcc.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_def.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\CMSIS\Device\PY32F0xx\Include\py32f0xx.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\CMSIS\Device\PY32F0xx\Include\py32f002bx5.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\CMSIS\Include\core_cm0plus.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\CMSIS\Device\PY32F0xx\Include\system_py32f0xx.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_rcc_ex.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_exti.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_gpio.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_gpio_ex.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_cortex.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_adc.h)(0x687F5D07)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_flash.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_pwr.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_tim.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_tim_ex.h)(0x687F5D07)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_uart.h)(0x687F5D08)
+F (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Src\py32f002b_hal_rcc.c)(0x68AEA3F9)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Inc -I ../../../../../../Drivers/BSP/PY32F002Bxx_Start_Kit -I ../../../../../../Drivers/CMSIS/Include -I ../../../../../../Drivers/CMSIS/Device/PY32F0xx/Include -I ../../../../../../Drivers/PY32F002B_HAL_Driver/Inc-I./RTE/_Project-IC:/Users/Administrator/AppData/Local/Arm/Packs/ARM/CMSIS/6.2.0/CMSIS/Core/Include-IC:/Users/Administrator/AppData/Local/Arm/Packs/Puya/PY32F0xx_DFP/1.2.9/Drivers/CMSIS/Device/PY32F0xx/Include-IC:/Users/Administrator/AppData/Local/Arm/Packs/Puya/PY32F0xx_DFP/1.2.9/Device/Include-D__UVISION_VERSION="543" -D_RTE_ -DUSE_HAL_DRIVER -DPY32F002Bx5-o ./output/py32f002b_hal_rcc.o -MMD)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f0xx_hal.h)(0x687F5D08)
+I (..\Inc\py32f002b_hal_conf.h)(0x6922FA06)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_rcc.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_def.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\CMSIS\Device\PY32F0xx\Include\py32f0xx.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\CMSIS\Device\PY32F0xx\Include\py32f002bx5.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\CMSIS\Include\core_cm0plus.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\CMSIS\Device\PY32F0xx\Include\system_py32f0xx.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_rcc_ex.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_exti.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_gpio.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_gpio_ex.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_cortex.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_adc.h)(0x687F5D07)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_flash.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_pwr.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_tim.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_tim_ex.h)(0x687F5D07)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_uart.h)(0x687F5D08)
+F (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Src\py32f002b_hal_rcc_ex.c)(0x687F5D07)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Inc -I ../../../../../../Drivers/BSP/PY32F002Bxx_Start_Kit -I ../../../../../../Drivers/CMSIS/Include -I ../../../../../../Drivers/CMSIS/Device/PY32F0xx/Include -I ../../../../../../Drivers/PY32F002B_HAL_Driver/Inc-I./RTE/_Project-IC:/Users/Administrator/AppData/Local/Arm/Packs/ARM/CMSIS/6.2.0/CMSIS/Core/Include-IC:/Users/Administrator/AppData/Local/Arm/Packs/Puya/PY32F0xx_DFP/1.2.9/Drivers/CMSIS/Device/PY32F0xx/Include-IC:/Users/Administrator/AppData/Local/Arm/Packs/Puya/PY32F0xx_DFP/1.2.9/Device/Include-D__UVISION_VERSION="543" -D_RTE_ -DUSE_HAL_DRIVER -DPY32F002Bx5-o ./output/py32f002b_hal_rcc_ex.o -MMD)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f0xx_hal.h)(0x687F5D08)
+I (..\Inc\py32f002b_hal_conf.h)(0x6922FA06)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_rcc.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_def.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\CMSIS\Device\PY32F0xx\Include\py32f0xx.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\CMSIS\Device\PY32F0xx\Include\py32f002bx5.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\CMSIS\Include\core_cm0plus.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\CMSIS\Device\PY32F0xx\Include\system_py32f0xx.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_rcc_ex.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_exti.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_gpio.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_gpio_ex.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_cortex.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_adc.h)(0x687F5D07)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_flash.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_pwr.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_tim.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_tim_ex.h)(0x687F5D07)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_uart.h)(0x687F5D08)
+F (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Src\py32f002b_hal_gpio.c)(0x687F5D07)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Inc -I ../../../../../../Drivers/BSP/PY32F002Bxx_Start_Kit -I ../../../../../../Drivers/CMSIS/Include -I ../../../../../../Drivers/CMSIS/Device/PY32F0xx/Include -I ../../../../../../Drivers/PY32F002B_HAL_Driver/Inc-I./RTE/_Project-IC:/Users/Administrator/AppData/Local/Arm/Packs/ARM/CMSIS/6.2.0/CMSIS/Core/Include-IC:/Users/Administrator/AppData/Local/Arm/Packs/Puya/PY32F0xx_DFP/1.2.9/Drivers/CMSIS/Device/PY32F0xx/Include-IC:/Users/Administrator/AppData/Local/Arm/Packs/Puya/PY32F0xx_DFP/1.2.9/Device/Include-D__UVISION_VERSION="543" -D_RTE_ -DUSE_HAL_DRIVER -DPY32F002Bx5-o ./output/py32f002b_hal_gpio.o -MMD)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f0xx_hal.h)(0x687F5D08)
+I (..\Inc\py32f002b_hal_conf.h)(0x6922FA06)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_rcc.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_def.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\CMSIS\Device\PY32F0xx\Include\py32f0xx.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\CMSIS\Device\PY32F0xx\Include\py32f002bx5.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\CMSIS\Include\core_cm0plus.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\CMSIS\Device\PY32F0xx\Include\system_py32f0xx.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_rcc_ex.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_exti.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_gpio.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_gpio_ex.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_cortex.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_adc.h)(0x687F5D07)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_flash.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_pwr.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_tim.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_tim_ex.h)(0x687F5D07)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_uart.h)(0x687F5D08)
+F (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Src\py32f002b_hal_pwr.c)(0x687F5D07)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Inc -I ../../../../../../Drivers/BSP/PY32F002Bxx_Start_Kit -I ../../../../../../Drivers/CMSIS/Include -I ../../../../../../Drivers/CMSIS/Device/PY32F0xx/Include -I ../../../../../../Drivers/PY32F002B_HAL_Driver/Inc-I./RTE/_Project-IC:/Users/Administrator/AppData/Local/Arm/Packs/ARM/CMSIS/6.2.0/CMSIS/Core/Include-IC:/Users/Administrator/AppData/Local/Arm/Packs/Puya/PY32F0xx_DFP/1.2.9/Drivers/CMSIS/Device/PY32F0xx/Include-IC:/Users/Administrator/AppData/Local/Arm/Packs/Puya/PY32F0xx_DFP/1.2.9/Device/Include-D__UVISION_VERSION="543" -D_RTE_ -DUSE_HAL_DRIVER -DPY32F002Bx5-o ./output/py32f002b_hal_pwr.o -MMD)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f0xx_hal.h)(0x687F5D08)
+I (..\Inc\py32f002b_hal_conf.h)(0x6922FA06)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_rcc.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_def.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\CMSIS\Device\PY32F0xx\Include\py32f0xx.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\CMSIS\Device\PY32F0xx\Include\py32f002bx5.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\CMSIS\Include\core_cm0plus.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\CMSIS\Device\PY32F0xx\Include\system_py32f0xx.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_rcc_ex.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_exti.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_gpio.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_gpio_ex.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_cortex.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_adc.h)(0x687F5D07)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_flash.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_pwr.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_tim.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_tim_ex.h)(0x687F5D07)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_uart.h)(0x687F5D08)
+F (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Src\py32f002b_hal_uart.c)(0x687F5D07)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Inc -I ../../../../../../Drivers/BSP/PY32F002Bxx_Start_Kit -I ../../../../../../Drivers/CMSIS/Include -I ../../../../../../Drivers/CMSIS/Device/PY32F0xx/Include -I ../../../../../../Drivers/PY32F002B_HAL_Driver/Inc-I./RTE/_Project-IC:/Users/Administrator/AppData/Local/Arm/Packs/ARM/CMSIS/6.2.0/CMSIS/Core/Include-IC:/Users/Administrator/AppData/Local/Arm/Packs/Puya/PY32F0xx_DFP/1.2.9/Drivers/CMSIS/Device/PY32F0xx/Include-IC:/Users/Administrator/AppData/Local/Arm/Packs/Puya/PY32F0xx_DFP/1.2.9/Device/Include-D__UVISION_VERSION="543" -D_RTE_ -DUSE_HAL_DRIVER -DPY32F002Bx5-o ./output/py32f002b_hal_uart.o -MMD)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f0xx_hal.h)(0x687F5D08)
+I (..\Inc\py32f002b_hal_conf.h)(0x6922FA06)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_rcc.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_def.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\CMSIS\Device\PY32F0xx\Include\py32f0xx.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\CMSIS\Device\PY32F0xx\Include\py32f002bx5.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\CMSIS\Include\core_cm0plus.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\CMSIS\Device\PY32F0xx\Include\system_py32f0xx.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_rcc_ex.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_exti.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_gpio.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_gpio_ex.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_cortex.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_adc.h)(0x687F5D07)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_flash.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_pwr.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_tim.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_tim_ex.h)(0x687F5D07)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_uart.h)(0x687F5D08)
+F (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Src\py32f002b_hal_cortex.c)(0x687F5D07)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Inc -I ../../../../../../Drivers/BSP/PY32F002Bxx_Start_Kit -I ../../../../../../Drivers/CMSIS/Include -I ../../../../../../Drivers/CMSIS/Device/PY32F0xx/Include -I ../../../../../../Drivers/PY32F002B_HAL_Driver/Inc-I./RTE/_Project-IC:/Users/Administrator/AppData/Local/Arm/Packs/ARM/CMSIS/6.2.0/CMSIS/Core/Include-IC:/Users/Administrator/AppData/Local/Arm/Packs/Puya/PY32F0xx_DFP/1.2.9/Drivers/CMSIS/Device/PY32F0xx/Include-IC:/Users/Administrator/AppData/Local/Arm/Packs/Puya/PY32F0xx_DFP/1.2.9/Device/Include-D__UVISION_VERSION="543" -D_RTE_ -DUSE_HAL_DRIVER -DPY32F002Bx5-o ./output/py32f002b_hal_cortex.o -MMD)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f0xx_hal.h)(0x687F5D08)
+I (..\Inc\py32f002b_hal_conf.h)(0x6922FA06)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_rcc.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_def.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\CMSIS\Device\PY32F0xx\Include\py32f0xx.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\CMSIS\Device\PY32F0xx\Include\py32f002bx5.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\CMSIS\Include\core_cm0plus.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\CMSIS\Device\PY32F0xx\Include\system_py32f0xx.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_rcc_ex.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_exti.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_gpio.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_gpio_ex.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_cortex.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_adc.h)(0x687F5D07)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_flash.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_pwr.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_tim.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_tim_ex.h)(0x687F5D07)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_uart.h)(0x687F5D08)
+F (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Src\py32f002b_hal_exti.c)(0x687F5D07)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Inc -I ../../../../../../Drivers/BSP/PY32F002Bxx_Start_Kit -I ../../../../../../Drivers/CMSIS/Include -I ../../../../../../Drivers/CMSIS/Device/PY32F0xx/Include -I ../../../../../../Drivers/PY32F002B_HAL_Driver/Inc-I./RTE/_Project-IC:/Users/Administrator/AppData/Local/Arm/Packs/ARM/CMSIS/6.2.0/CMSIS/Core/Include-IC:/Users/Administrator/AppData/Local/Arm/Packs/Puya/PY32F0xx_DFP/1.2.9/Drivers/CMSIS/Device/PY32F0xx/Include-IC:/Users/Administrator/AppData/Local/Arm/Packs/Puya/PY32F0xx_DFP/1.2.9/Device/Include-D__UVISION_VERSION="543" -D_RTE_ -DUSE_HAL_DRIVER -DPY32F002Bx5-o ./output/py32f002b_hal_exti.o -MMD)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f0xx_hal.h)(0x687F5D08)
+I (..\Inc\py32f002b_hal_conf.h)(0x6922FA06)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_rcc.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_def.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\CMSIS\Device\PY32F0xx\Include\py32f0xx.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\CMSIS\Device\PY32F0xx\Include\py32f002bx5.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\CMSIS\Include\core_cm0plus.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\CMSIS\Device\PY32F0xx\Include\system_py32f0xx.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_rcc_ex.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_exti.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_gpio.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_gpio_ex.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_cortex.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_adc.h)(0x687F5D07)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_flash.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_pwr.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_tim.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_tim_ex.h)(0x687F5D07)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_uart.h)(0x687F5D08)
+F (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Src\py32f002b_hal_tim.c)(0x687F5D07)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Inc -I ../../../../../../Drivers/BSP/PY32F002Bxx_Start_Kit -I ../../../../../../Drivers/CMSIS/Include -I ../../../../../../Drivers/CMSIS/Device/PY32F0xx/Include -I ../../../../../../Drivers/PY32F002B_HAL_Driver/Inc-I./RTE/_Project-IC:/Users/Administrator/AppData/Local/Arm/Packs/ARM/CMSIS/6.2.0/CMSIS/Core/Include-IC:/Users/Administrator/AppData/Local/Arm/Packs/Puya/PY32F0xx_DFP/1.2.9/Drivers/CMSIS/Device/PY32F0xx/Include-IC:/Users/Administrator/AppData/Local/Arm/Packs/Puya/PY32F0xx_DFP/1.2.9/Device/Include-D__UVISION_VERSION="543" -D_RTE_ -DUSE_HAL_DRIVER -DPY32F002Bx5-o ./output/py32f002b_hal_tim.o -MMD)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f0xx_hal.h)(0x687F5D08)
+I (..\Inc\py32f002b_hal_conf.h)(0x6922FA06)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_rcc.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_def.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\CMSIS\Device\PY32F0xx\Include\py32f0xx.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\CMSIS\Device\PY32F0xx\Include\py32f002bx5.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\CMSIS\Include\core_cm0plus.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\CMSIS\Device\PY32F0xx\Include\system_py32f0xx.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_rcc_ex.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_exti.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_gpio.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_gpio_ex.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_cortex.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_adc.h)(0x687F5D07)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_flash.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_pwr.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_tim.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_tim_ex.h)(0x687F5D07)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_uart.h)(0x687F5D08)
+F (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Src\py32f002b_hal_tim_ex.c)(0x687F5D07)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Inc -I ../../../../../../Drivers/BSP/PY32F002Bxx_Start_Kit -I ../../../../../../Drivers/CMSIS/Include -I ../../../../../../Drivers/CMSIS/Device/PY32F0xx/Include -I ../../../../../../Drivers/PY32F002B_HAL_Driver/Inc-I./RTE/_Project-IC:/Users/Administrator/AppData/Local/Arm/Packs/ARM/CMSIS/6.2.0/CMSIS/Core/Include-IC:/Users/Administrator/AppData/Local/Arm/Packs/Puya/PY32F0xx_DFP/1.2.9/Drivers/CMSIS/Device/PY32F0xx/Include-IC:/Users/Administrator/AppData/Local/Arm/Packs/Puya/PY32F0xx_DFP/1.2.9/Device/Include-D__UVISION_VERSION="543" -D_RTE_ -DUSE_HAL_DRIVER -DPY32F002Bx5-o ./output/py32f002b_hal_tim_ex.o -MMD)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f0xx_hal.h)(0x687F5D08)
+I (..\Inc\py32f002b_hal_conf.h)(0x6922FA06)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_rcc.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_def.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\CMSIS\Device\PY32F0xx\Include\py32f0xx.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\CMSIS\Device\PY32F0xx\Include\py32f002bx5.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\CMSIS\Include\core_cm0plus.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\CMSIS\Device\PY32F0xx\Include\system_py32f0xx.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_rcc_ex.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_exti.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_gpio.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_gpio_ex.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_cortex.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_adc.h)(0x687F5D07)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_flash.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_pwr.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_tim.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_tim_ex.h)(0x687F5D07)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_uart.h)(0x687F5D08)
+F (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Src\py32f002b_hal_adc.c)(0x687F5D07)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Inc -I ../../../../../../Drivers/BSP/PY32F002Bxx_Start_Kit -I ../../../../../../Drivers/CMSIS/Include -I ../../../../../../Drivers/CMSIS/Device/PY32F0xx/Include -I ../../../../../../Drivers/PY32F002B_HAL_Driver/Inc-I./RTE/_Project-IC:/Users/Administrator/AppData/Local/Arm/Packs/ARM/CMSIS/6.2.0/CMSIS/Core/Include-IC:/Users/Administrator/AppData/Local/Arm/Packs/Puya/PY32F0xx_DFP/1.2.9/Drivers/CMSIS/Device/PY32F0xx/Include-IC:/Users/Administrator/AppData/Local/Arm/Packs/Puya/PY32F0xx_DFP/1.2.9/Device/Include-D__UVISION_VERSION="543" -D_RTE_ -DUSE_HAL_DRIVER -DPY32F002Bx5-o ./output/py32f002b_hal_adc.o -MMD)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f0xx_hal.h)(0x687F5D08)
+I (..\Inc\py32f002b_hal_conf.h)(0x6922FA06)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_rcc.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_def.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\CMSIS\Device\PY32F0xx\Include\py32f0xx.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\CMSIS\Device\PY32F0xx\Include\py32f002bx5.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\CMSIS\Include\core_cm0plus.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\CMSIS\Device\PY32F0xx\Include\system_py32f0xx.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_rcc_ex.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_exti.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_gpio.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_gpio_ex.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_cortex.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_adc.h)(0x687F5D07)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_flash.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_pwr.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_tim.h)(0x687F5D08)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_tim_ex.h)(0x687F5D07)
+I (..\..\..\..\..\..\Drivers\PY32F002B_HAL_Driver\Inc\py32f002b_hal_uart.h)(0x687F5D08)
+F (..\readme.txt)(0x687F5CF4)()
