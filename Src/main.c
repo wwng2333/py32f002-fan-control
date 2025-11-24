@@ -78,6 +78,7 @@ int main(void)
     HAL_ADC_PollForConversion(&hadc, 1000);
     aADCxConvertedData = HAL_ADC_GetValue(&hadc);
     pwmOutputValue = map(aADCxConvertedData, 20, 2100, 96, 0);
+    HAL_GPIO_WritePin(GPIOB, GPIO_PIN_1, pwmOutputValue);
     __HAL_TIM_SET_COMPARE(&TimHandle, TIM_CHANNEL_4, pwmOutputValue);
     HAL_Delay(100);
   }
@@ -173,7 +174,7 @@ static void APP_ADCConfig(void)
   __HAL_RCC_ADC_CLK_ENABLE();                                                /* Enable ADC clock */
 
   hadc.Instance = ADC1;
-  
+
   hadc.Init.ClockPrescaler        = ADC_CLOCK_SYNC_PCLK_DIV4;                /* Set ADC clock*/
   hadc.Init.Resolution            = ADC_RESOLUTION_12B;                      /* 12-bit resolution for converted data */
   hadc.Init.DataAlign             = ADC_DATAALIGN_RIGHT;                     /* Right-alignment for converted data */
